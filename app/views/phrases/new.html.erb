@@ -1,5 +1,8 @@
-<h1>New Phrase</h1>
-
-<%= render 'form', phrase: @phrase %>
-
-<%= link_to 'Back', phrases_path %>
+<div class = "background-image">
+  <div class = "jumbotron">
+    <h1>Welcome to the red room</h1>
+    <p>please enter your phrase</p>
+    <%= render 'form', phrase: @phrase %>
+    <%= link_to 'Back', phrases_path %>
+  </div>
+</div>
